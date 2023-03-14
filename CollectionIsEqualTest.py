@@ -22,7 +22,7 @@ class CollectionIsEqualTest(unittest.TestCase) :
         obj1 = (1,1,1,2,3,4,4,4,5,6,7,7)
         obj2 = (1,1,1,1,2,3,4,4,4,4,5,5,5,6,6,6,6,6,7,7,7,7,7)
 
-        self.assertTrue(self.check_equality.isEqual(obj1, obj2))
+        self.assertTrue(self.check_equality.sharesUnique(obj1, obj2))
 
 
 if __name__ == "__main__" :
